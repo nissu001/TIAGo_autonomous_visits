@@ -1,0 +1,17 @@
+<package>
+  <description brief="SendingGoals">
+
+     PlacesLearning
+
+  </description>
+  <author>Paloma de la Puente</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <depend package="roscpp"/>
+  <depend package="move_base_msgs"/>
+  <depend package="tf"/>
+  <depend package="HobbitMsgs"/>
+
+</package>
+
+

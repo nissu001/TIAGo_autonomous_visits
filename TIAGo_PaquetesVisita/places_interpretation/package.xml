@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>places_interpretation</name>
+  <version>0.0.0</version>
+  <description>Binding places and SLAM based map together</description>
+  
+  <maintainer email="paloma@todo.todo">paloma</maintainer>
+  
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mensajes</build_depend>
+  <build_depend>pugixml</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  
+  
+  <run_depend>mensajes</run_depend>
+  <run_depend>pugixml</run_depend>
+  <run_depend>roscpp</run_depend>
+  
+  
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

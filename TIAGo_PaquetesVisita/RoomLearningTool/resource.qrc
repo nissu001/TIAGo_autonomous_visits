@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/h">
+        <file>hobbit_map_20130221.pgm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/v4r/!svn/ver/7412/trunk/ros/hobbit_hydro_src/places_interpretation/launch
+END
+startup.launch
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/v4r/!svn/ver/7412/trunk/ros/hobbit_hydro_src/places_interpretation/launch/startup.launch
+END
+places.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/v4r/!svn/ver/6149/trunk/ros/hobbit_hydro_src/places_interpretation/launch/places.xml
+END
+startup_places_interpretation.launch
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/v4r/!svn/ver/6149/trunk/ros/hobbit_hydro_src/places_interpretation/launch/startup_places_interpretation.launch
+END

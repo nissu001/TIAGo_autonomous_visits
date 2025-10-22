@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="visita" type="places_interpretation_visita" name="places_interpretation_visita" args="/home/pal/catkin_ws/src/visita" output="screen"/>
+  <node pkg="visita" type="sending_goals_visita" name="sending_goals_visita" output="screen"/>
+  <node pkg="visita" type="visita" name="visita" output="screen"/>
+</launch>
+
+

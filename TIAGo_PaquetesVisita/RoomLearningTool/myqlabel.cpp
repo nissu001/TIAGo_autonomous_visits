@@ -1,0 +1,93 @@
+#include "myqlabel.h"
+#include <QPainter>
+#include <QMouseEvent>
+
+#include <iostream>
+
+void MyQLabel :: mousePressEvent(QMouseEvent *e)
+{
+    if(e->button() == Qt::LeftButton)
+    {
+        if(map_opened)
+        {
+            float x = e->x();
+            float y = e->y();
+
+            //add point
+            Point2D p(x,y);
+            corners.push_back(p);
+            update();
+
+	    //std::cout << "Vertex added " << x << " " << y << std::endl;
+        }
+    }
+}
+
+void MyQLabel :: paintEvent(QPaintEvent * e)
+{
+
+    QLabel::paintEvent(e);
+
+    if(map_opened)
+    {
+        for(unsigned int i=0;i<corners.size();i++)
+        {
+               QPainter painter(this);
+               QPen paintpen(Qt::red);
+               paintpen.setWidth(5);
+
+               Point2D corner = corners[i];
+
+               QPoint p1;
+               p1.setX(corner.x);
+               p1.setY(corner.y);
+               painter.setPen(paintpen);
+               painter.drawPoint(p1);
+        }
+
+        for(unsigned int i=0;i<rooms.size();i++)
+        {
+               QPainter painter(this);
+               QPen paintpen(Qt::blue);
+               paintpen.setWidth(2);
+
+               unsigned int n = rooms[i].room_corners.size();
+               QPoint* points = new QPoint[n];
+
+               float x_sum=0;
+               float y_sum=0;
+
+               for (unsigned int j=0; j<n;j++)
+               {
+                   Point2D corner = rooms[i].room_corners[j];
+
+                   QPoint p1;
+                   p1.setX(corner.x);
+                   p1.setY(corner.y);
+
+                   points[j] = p1;
+
+                   x_sum+=corner.x;
+                   y_sum+=corner.y;
+
+               }
+
+                painter.setPen(paintpen);
+                painter.drawPolygon(points,n);
+
+
+
+                QPoint cg(x_sum/n,y_sum/n);
+                QString room_name(rooms[i].room_name.c_str());
+
+                painter.setFont(QFont("Arial",10));
+                painter.drawText(cg,room_name);
+
+        }
+
+
+
+
+    }
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rooms>
+	<room>
+		<name>laboratorio inteligencia</name>
+		<vertices>
+			<vertex x="-100,000000" y="-100,000000" />
+			<vertex x="-100,000000" y="-100,000000" />
+			<vertex x="-100,000000" y="-100,000000" />
+			<vertex x="-100,000000" y="-100,000000" />
+		</vertices>
+	</room>
+</rooms>

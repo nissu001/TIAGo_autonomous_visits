@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<rooms>
+	<room>
+		<name>salaH</name>
+		<vertices>
+			<vertex x="-3,532811" y="3,435504" />
+			<vertex x="5,626940" y="3,037254" />
+			<vertex x="5,527378" y="-2,040433" />
+			<vertex x="-3,731936" y="-1,841309" />
+		</vertices>
+	</room>
+	<room>
+		<name>salaG</name>
+		<vertices>
+			<vertex x="-3,532811" y="-2,339121" />
+			<vertex x="5,626940" y="-2,438684" />
+			<vertex x="5,626940" y="-8,213310" />
+			<vertex x="-3,433249" y="-7,914622" />
+		</vertices>
+	</room>
+	<room>
+		<name>salaF</name>
+		<vertices>
+			<vertex x="-3,532811" y="-8,312872" />
+			<vertex x="5,726501" y="-8,511996" />
+			<vertex x="5,427814" y="-12,793186" />
+			<vertex x="-3,632374" y="-12,992310" />
+		</vertices>
+	</room>
+	<room>
+		<name>salaE</name>
+		<vertices>
+			<vertex x="-3,532811" y="-13,091871" />
+			<vertex x="5,427814" y="-13,091871" />
+			<vertex x="5,328251" y="-18,070000" />
+			<vertex x="-3,532811" y="-18,468248" />
+		</vertices>
+	</room>
+	<room>
+		<name>salaD</name>
+		<vertices>
+			<vertex x="-1,242874" y="-21,853373" />
+			<vertex x="3,237440" y="-22,152061" />
+			<vertex x="2,839189" y="-27,428875" />
+			<vertex x="-1,342436" y="-27,130188" />
+		</vertices>
+	</room>
+	<room>
+		<name>baños</name>
+		<vertices>
+			<vertex x="-8,212250" y="-14,485746" />
+			<vertex x="-5,723186" y="-14,585310" />
+			<vertex x="-5,723186" y="-17,074373" />
+			<vertex x="-8,212250" y="-16,974810" />
+		</vertices>
+	</room>
+	<room>
+		<name>pasillo</name>
+		<vertices>
+			<vertex x="-7,017500" y="5,327192" />
+			<vertex x="-3,831499" y="5,028504" />
+			<vertex x="-3,731936" y="-19,065622" />
+			<vertex x="-1,143312" y="-19,065622" />
+			<vertex x="-1,342436" y="-26,731934" />
+			<vertex x="-6,021874" y="-26,831497" />
+			<vertex x="-6,121437" y="-25,238499" />
+			<vertex x="-2,835875" y="-25,138935" />
+			<vertex x="-2,636749" y="-21,255997" />
+			<vertex x="-5,623624" y="-21,156437" />
+			<vertex x="-5,225374" y="3,535067" />
+			<vertex x="-7,117062" y="3,833755" />
+		</vertices>
+	</room>
+	<room>
+		<name>entrada</name>
+		<vertices>
+			<vertex x="-1,043748" y="-19,065622" />
+			<vertex x="3,536128" y="-19,065622" />
+			<vertex x="3,635690" y="-21,355560" />
+			<vertex x="-1,043748" y="-21,056873" />
+		</vertices>
+	</room>
+</rooms>

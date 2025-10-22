@@ -1,0 +1,7 @@
+<launch>
+    <arg name="map_file" default="$(find map_provider)/mapas/mapa_car2.yaml"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)"/>
+</launch>    
+
+<!-- rosservice call /pal_map_manager/save_map "catkin_ws/src/map_provider/mapas 'mapa_car2.yaml'" -->
+

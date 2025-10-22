@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="VirtualLaser" type="VirtualLaser" name="VirtualLaser" output="screen" args="$(find VirtualLaser)/launch/Params_xpc2.txt" />
+</launch>
+

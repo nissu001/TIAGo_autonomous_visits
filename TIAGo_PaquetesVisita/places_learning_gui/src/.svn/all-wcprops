@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/v4r/!svn/ver/7872/trunk/ros/hobbit_hydro_src/places_learning_gui/src
+END
+mydialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/v4r/!svn/ver/7840/trunk/ros/hobbit_hydro_src/places_learning_gui/src/mydialog.cpp
+END
+mypanel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/v4r/!svn/ver/6728/trunk/ros/hobbit_hydro_src/places_learning_gui/src/mypanel.cpp
+END
+myqlabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/v4r/!svn/ver/7872/trunk/ros/hobbit_hydro_src/places_learning_gui/src/myqlabel.cpp
+END
+qnode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/v4r/!svn/ver/7719/trunk/ros/hobbit_hydro_src/places_learning_gui/src/qnode.cpp
+END
+PlacesLearningGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/v4r/!svn/ver/6728/trunk/ros/hobbit_hydro_src/places_learning_gui/src/PlacesLearningGui.cpp
+END
+mainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/v4r/!svn/ver/7872/trunk/ros/hobbit_hydro_src/places_learning_gui/src/mainwindow.cpp
+END

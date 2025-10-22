@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="places_interpretation" type="places_interpretation" name="places_interpretation" args="/home/oscar/salas_car_places" output="screen"/>
+</launch>
+
+

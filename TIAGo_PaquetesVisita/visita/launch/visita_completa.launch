@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="measurements_visita" type="measurements_visita" name="measurements_visita"/>
+  <node pkg="object_detection" type="object_detection" name="object_detection"/>
+  <node pkg="visita" type="places_interpretation_visita" name="places_interpretation_visita" args="/home/marcos/salas_car_places"/>
+  <node pkg="visita" type="sending_goals_visita" name="sending_goals_visita"/>
+  <node pkg="visita" type="visita" name="visita" output="screen"/>
+</launch>
+

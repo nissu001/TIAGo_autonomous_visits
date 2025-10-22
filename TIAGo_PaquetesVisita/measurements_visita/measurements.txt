@@ -1,0 +1,6 @@
+==== RESULTADOS DE LA ULTIMA VISITA REALIZADA ==== 
+
+ Tiempo total de la visita : 3.04 minutos
+ Tiempo que el robot ha estado en movimiento durante la visita : 0.68 minutos
+ Distancia recorrida por el robot durante la visita : 11.81 metros
+ Velocidad media del robot : 0.29 m/s

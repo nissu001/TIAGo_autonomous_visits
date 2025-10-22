@@ -1,0 +1,16 @@
+<package>
+  <description brief="PlacesInterpretation">
+
+     PlacesInterpretation
+
+  </description>
+  <author>Paloma de la Puente</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <depend package="roscpp"/>
+  <depend package="HobbitMsgs"/>
+  <depend package="pugixml"/>
+
+</package>
+
+

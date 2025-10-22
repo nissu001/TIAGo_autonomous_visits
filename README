@@ -1,0 +1,5 @@
+Para poder compilar los paquetes de TIAGo_PaquetesVisita, se debe clonar previamente el stack Navigation de ROS en el workspace.
+
+Si el conjunto de paquetes yolov5-ros da problemas a la hora de compilar, descargar el original del repositorio oficial y configurar el paquete yolov5_ros igual que el paquete que viene aquí. 
+
+Repositorio yolov5-ros: https://gitlab.com/general-purpose-tools-in-emlab/object-detector/yolo/yolov5-ros/-/tree/main?ref_type=heads
